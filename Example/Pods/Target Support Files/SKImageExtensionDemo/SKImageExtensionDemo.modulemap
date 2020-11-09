@@ -1,0 +1,6 @@
+framework module SKImageExtensionDemo {
+  umbrella header "SKImageExtensionDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
