@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04C1523AF7F5E553629977DFFC453CB7 /* SKImageExtensionDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0507CB5A1B8870BCC169AAEE65548BB /* SKImageExtensionDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08A442E12559523D0012F4BF /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A442E02559523D0012F4BF /* UIImageExtension.swift */; };
+		08A442F325595B780012F4BF /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A442F225595B780012F4BF /* UIImageView.swift */; };
 		1DF633C1E136B31E48EA64B98AF93722 /* SKImageExtensionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 227058410837B6C4DED8F0D91D8B2C5F /* SKImageExtensionDemo-dummy.m */; };
 		4750BA1289D1D44049E71FB62955EA1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		73FB2F5D534A8160221911C4ABA3C96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,7 +40,7 @@
 		036360208EF3CA2F2854C12DEE726D2F /* Pods-SKImageExtensionDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKImageExtensionDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		044250F4EEADA4740A4B8961278B8412 /* Pods-SKImageExtensionDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKImageExtensionDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		05CB3E671F4D719F63E7F88BF9A744F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		08A442E02559523D0012F4BF /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		08A442F225595B780012F4BF /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		227058410837B6C4DED8F0D91D8B2C5F /* SKImageExtensionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKImageExtensionDemo-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43789DFC037FBD6CAD49715FE9DD5E12 /* Pods-SKImageExtensionDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKImageExtensionDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -99,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A442F125595B500012F4BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				08A442F225595B780012F4BF /* UIImageView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		5D001F3426EB1C05F0F63AB5FF3001DE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,7 +190,7 @@
 		F0C634CAD672EBE80712F5C9F013CDB3 /* SKImageExtensionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				08A442E02559523D0012F4BF /* UIImageExtension.swift */,
+				08A442F125595B500012F4BF /* Classes */,
 				6DFF319F6B064A262C1310F61E8F4EF4 /* Pod */,
 				FD627605189F0AF6FE320D03FC51B0DE /* Support Files */,
 			);
@@ -379,7 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE515B9CB65706ECDBDD323438AE76EF /* Pods-SKImageExtensionDemo_Example-dummy.m in Sources */,
-				08A442E12559523D0012F4BF /* UIImageExtension.swift in Sources */,
+				08A442F325595B780012F4BF /* UIImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
