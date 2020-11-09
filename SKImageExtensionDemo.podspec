@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'SKImageExtensionDemo/Classes/**/*'
+  s.source_files = 'SKImageExtensionDemo/Classes/*.swift'
   #s.source_files = 'SKImageExtension/Classes/*.swift'
   s.frameworks = 'UIKit'
 
